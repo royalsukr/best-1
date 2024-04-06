@@ -1,0 +1,212 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<style>
+*{
+    font-family: "Inter", sans-serif;
+}
+.s{
+color: grey;
+font-size: 20px;
+cursor: pointer;
+}
+.s:hover {
+    text-decoration: underline;
+  text-underline-offset: 29px;
+  color: blue;
+  }
+</style>
+<body class="w-full flex">
+<aside class="flex">
+    <div>
+    <img class="pt-[20px] pl-[40px]" src="assets/img/z-removebg-preview.png" alt="">
+
+    <ul class="pl-[40px] pt-[60px] ">
+        <li class="items-center text-gray-600 text-[19px] pb-[20px] hover:text-blue-600 group"> <span class="absolute w-1.5 h-8 bg-blue-600 rounded-r-full left-0 scale-y-0 -translate-x-full group-hover:scale-y-100 group-hover:translate-x-0 transition-transform ease-in-out"></span><i class="fa-solid fa-house pr-[10px]"></i>Overview</li>
+        <li class="items-center text-gray-600 text-[19px] pb-[20px] hover:text-blue-600 group"> <span class="absolute w-1.5 h-8 bg-blue-600 rounded-r-full left-0 scale-y-0 -translate-x-full group-hover:scale-y-100 group-hover:translate-x-0 transition-transform ease-in-out"></span><i class="fa-solid fa-bag-shopping pr-[10px]"></i>Product</li>
+        <li class="items-center text-gray-600 text-[19px] pb-[20px] hover:text-blue-600 group"><i class="fa-solid fa-chart-line pr-[10px]"> <span class="absolute w-1.5 h-8 bg-blue-600 rounded-r-full left-0 scale-y-0 -translate-x-full group-hover:scale-y-100 group-hover:translate-x-0 transition-transform ease-in-out"></span></i>Analytics</li>
+        <li class="items-center text-gray-600 text-[19px] pb-[20px] hover:text-blue-600 group"><i class="fa-solid fa-calendar-days pr-[10px]"> <span class="absolute w-1.5 h-8 bg-blue-600 rounded-r-full left-0 scale-y-0 -translate-x-full group-hover:scale-y-100 group-hover:translate-x-0 transition-transform ease-in-out"></span></i>Schedule</li>
+        <li class="items-center text-gray-600 text-[19px] pb-[20px] hover:text-blue-600 group"><i class="fa-solid fa-wallet pr-[10px]"> <span class="absolute w-1.5 h-8 bg-blue-600 rounded-r-full left-0 scale-y-0 -translate-x-full group-hover:scale-y-100 group-hover:translate-x-0 transition-transform ease-in-out"></span></i>Payout</li>
+        <li class="items-center text-gray-600 text-[19px] pb-[20px] hover:text-blue-600 group"><i class="fa-solid fa-file pr-[10px]"> <span class="absolute w-1.5 h-8 bg-blue-600 rounded-r-full left-0 scale-y-0 -translate-x-full group-hover:scale-y-100 group-hover:translate-x-0 transition-transform ease-in-out"></span></i>Statements</li>
+    </ul>
+    <div class="bg-gray-400 mt-[30px]  ml-[50px] w-[110px] h-[2px]"></div>
+    <ul class="pl-[40px] pt-[40px]">
+        <li class="items-center text-gray-600 text-[19px] pb-[20px] group"><i class="fa-solid fa-circle-question pr-[10px]"> <span class="absolute w-1.5 h-8 bg-blue-600 rounded-r-full left-0 scale-y-0 -translate-x-full group-hover:scale-y-100 group-hover:translate-x-0 transition-transform ease-in-out"></span></i>Help</li>
+        <li class="items-center text-gray-600 text-[19px] pb-[20px] group"><i class="fa-solid fa-comment pr-[10px]"> <span class="absolute w-1.5 h-8 bg-blue-600 rounded-r-full left-0 scale-y-0 -translate-x-full group-hover:scale-y-100 group-hover:translate-x-0 transition-transform ease-in-out"></span></i>Community</li>
+        <li class="items-center text-gray-600 text-[19px] pb-[20px] group"><i class="fa-solid fa-gear pr-[10px]"> <span class="absolute w-1.5 h-8 bg-blue-600 rounded-r-full left-0 scale-y-0 -translate-x-full group-hover:scale-y-100 group-hover:translate-x-0 transition-transform ease-in-out"></span></i>Settings</li>
+        <li class="items-center text-gray-600 text-[19px] pb-[20px] group"><i class="fa-solid fa-right-from-bracket pr-[10px]"> <span class="absolute w-1.5 h-8 bg-blue-600 rounded-r-full left-0 scale-y-0 -translate-x-full group-hover:scale-y-100 group-hover:translate-x-0 transition-transform ease-in-out"></span></i>Logout</li>
+    </ul>
+</div>
+    <div class="bg-gray-200  ml-[60px] w-[2px] h-[100vdh]"></div>
+</aside>
+
+
+<main class="flex-col w-full bg-cover ">
+
+    <div class="flex items-center justify-between mx-[20px] pt-[20px]">
+<div>
+<p class="text-[30px] font-bold">Products</p>
+<p class="text-gray-400">Let's grow to your business Creat your product and upload here</p>
+</div>
+<div class="">
+    <button class="border-none bg-blue-600 rounded-[10px] text-white px-[40px] py-[10px] hover:ring-2 "><i class="fa-solid fa-plus mr-[10px]"></i>Crate item</button>
+</div>
+</div>
+<div class="bg-gray-200 mt-[20px] w-full h-[2px] "></div>
+
+<div class="flex items-center gap-[40px] justify-between px-[20px] pt-[20px]">
+<div class="s"><i class="fa-solid fa-layer-group mr-[10px] "></i>Published</div>
+<div class="s"><i class="fa-solid fa-puzzle-piece mr-[10px]"></i>Draft</div>
+<div class="s"><i class="fa-solid fa-eye-slash mr-[10px]"></i>Hidden</div>
+<div class="s"><i class="fa-solid fa-eject mr-[10px]"></i>Rejected</div>
+<div class="s"><i class="fa-solid fa-glass-water mr-[10px]"></i>Under Review</div>
+</div>
+<div class="bg-gray-200 mt-[20px] w-full h-[2px] "></div>
+
+<div class="flex items-center justify-between pt-[30px] px-[20px]" >
+  
+    <div class=" flex items-center"><input class="w-5 h-5 text-blue-600 mr-[10px]" type="checkbox">Product Name</div>
+
+    <div class=" pl-[70px] ml-[100px] gap-[70px] flex"> 
+        <div class="s"><p class=" text-gray-600 text-[20px]">Pricing</p></div>
+        <div class="s"><p class=" text-gray-600 text-[20px]">Downloaded</p></div>
+        <div class="s"><p class=" text-gray-600 text-[20px]">Rating</p></div>
+        <div class="s"><p class=" text-gray-600 text-[20px]">Platforms</p></div>
+    </div>
+
+    <div class=" text-gray-600 text-[19px] pl-[30px] "><i class="fa-solid fa-flask"></i></div>
+</div>
+<div class="bg-gray-200 mt-[20px] w-full h-[2px] "></div>
+
+<div class="pt-[40px] pl-[20px] flex items-center justify-between size-cover w-full">
+    <div class="flex"> 
+    <div class=" flex items-center"><input class="w-5 h-5 text-blue-600 mr-[10px]" type="checkbox"></div>
+    <div><img class="w-[150px] h-[75px] rounded-[20px]" src="assets/img/organic-landing-page.png" alt=""></div>
+    <div>
+        <p class="font-bold text-gray-600">Jiko Landing Page</p>
+        <p class="text-gray-400">Website Desing</p>
+    </div>
+    </div>
+    <div class="  flex justify-between w-[60%]">
+
+    <div class="font-bold "> 28$</div>
+    <div class=" font-bold "> 14</div>
+    <div class="font-bold  ml-[0px]"> 4.8/ <span class="text-gray-400"> 5</span></div>
+    <div><i class="fa-brands fa-figma text-[30px] pr-[20px] "></i> <i class="fa-solid fa-gem text-[30px]"></i></div>
+    <div class="font-bold mr-[10px]">12/11/21</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+<div class="pt-[40px] pl-[20px] flex items-center justify-between size-cover w-full">
+    <div class="flex"> 
+    <div class=" flex items-center"><input class="w-5 h-5 text-blue-600 mr-[10px]" type="checkbox"></div>
+    <div><img class="w-[150px] h-[75px] rounded-[20px]" src="assets/img/mobile.webp" alt=""></div>
+    <div>
+        <p class="font-bold text-gray-600">Jiko Mobile App</p>
+        <p class="text-gray-400">App Desing</p>
+    </div>
+    </div>
+    <div class="  flex justify-between w-[60%]">
+
+    <div class="font-bold "> 15$</div>
+    <div class=" font-bold "> 12</div>
+    <div class="font-bold  ml-[0px]"> 4.2/ <span class="text-gray-400"> 5</span></div>
+    <div><i class="fa-brands fa-figma text-[30px] pr-[20px] "></i> <i class="fa-solid fa-gem text-[30px]"></i></div>
+    <div class="font-bold mr-[10px]">12/11/21</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="pt-[40px] pl-[20px] flex items-center justify-between size-cover w-full">
+    <div class="flex"> 
+    <div class=" flex items-center"><input class="w-5 h-5 text-blue-600 mr-[10px]" type="checkbox"></div>
+    <div><img class="w-[150px] h-[75px] rounded-[20px]" src="assets/img/plant.png" alt=""></div>
+    <div>
+        <p class="font-bold text-gray-600">AR Plant UI Kit</p>
+        <p class="text-gray-400">App Desing</p>
+    </div>
+    </div>
+    <div class="  flex justify-between w-[60%]">
+
+    <div class="font-bold "> 15$</div>
+    <div class=" font-bold "> 6</div>
+    <div class="font-bold  ml-[0px]"> 4.6/ <span class="text-gray-400"> 5</span></div>
+    <div><i class="fa-brands fa-figma text-[30px] pr-[20px] "></i> <i class="fa-solid fa-gem text-[30px]"></i></div>
+    <div class="font-bold mr-[10px]">10/11/21</div>
+</div>
+</div>
+
+
+
+
+<div class="pt-[40px] pl-[20px] flex items-center justify-between size-cover w-full">
+    <div class="flex"> 
+    <div class=" flex items-center"><input class="w-5 h-5 text-blue-600 mr-[10px]" type="checkbox"></div>
+    <div><img class="w-[150px] h-[75px] rounded-[20px]" src="assets/img/RoseInnHotel-ibrahimovaz.jpg" alt=""></div>
+    <div>
+        <p class="font-bold text-gray-600">Hotel Booking UI KIT</p>
+        <p class="text-gray-400">App Desing</p>
+    </div>
+    </div>
+    <div class="  flex justify-between w-[60%]">
+
+    <div class="font-bold "> 15$</div>
+    <div class=" font-bold "> 24</div>
+    <div class="font-bold  ml-[0px]"> 4.8/ <span class="text-gray-400"> 5</span></div>
+    <div><i class="fa-brands fa-figma text-[30px] pr-[20px] "></i> <i class="fa-solid fa-gem text-[30px]"></i></div>
+    <div class="font-bold mr-[10px]">09/11/21</div>
+</div>
+</div>
+
+
+
+<div class="pt-[40px] pl-[20px] flex items-center justify-between size-cover w-full">
+    <div class="flex"> 
+    <div class=" flex items-center"><input class="w-5 h-5 text-blue-600 mr-[10px]" type="checkbox"></div>
+    <div><img class="w-[150px] h-[75px] rounded-[20px]" src="assets/img/bakery.png" alt=""></div>
+    <div>
+        <p class="font-bold text-gray-600">Bakery Landing Page</p>
+        <p class="text-gray-400">Web Desing</p>
+    </div>
+    </div>
+    <div class=" flex justify-between w-[60%]">
+
+    <div class="font-bold "> 24$</div>
+    <div class=" font-bold "> 8</div>
+    <div class="font-bold  ml-[0px]"> 4.8/ <span class="text-gray-400"> 5</span></div>
+    <div><i class="fa-brands fa-figma text-[30px] pr-[20px] "></i> <i class="fa-solid fa-gem text-[30px]"></i></div>
+    <div class="font-bold mr-[10px]">08/11/21</div>
+</div>
+</div>
+
+
+</main>
+
+</body>
+</html>
